@@ -1,0 +1,11 @@
+                                  
+                                  blog apps
+
+                                  types of roles
+                            
+            Author                   users                  admin
+            -REGISTRATION            REGISTRATION           LOGIN
+            -LOGIN                    LOGIN                view article
+            -add articles             view article          block and activate users
+            -view articles            write comments
+            edit and delete articles              

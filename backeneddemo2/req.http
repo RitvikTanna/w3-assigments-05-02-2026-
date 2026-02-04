@@ -1,0 +1,41 @@
+GET http://localhost:3000/user-api/users
+
+###
+
+POST http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+    "username": "john_doe",
+    "password": "securepassword123",
+    "age": 30
+}
+
+### REQ FOR PROTECTED ROUTE
+GET http://localhost:3000/user-api/test
+
+
+
+###
+PUT http://127.0.0.1:3000/user-api/users/<id>
+
+
+###
+DELETE http://127.0.0.1:3000/user-api/users/<id>
+
+
+###
+GET http://127.0.0.1:3000/product-api/products
+
+
+###
+POST http://127.0.0.1:3000/product-api/products
+
+
+
+###
+PUT http://127.0.0.1:3000/product-api/products/<id>
+
+
+###
+DELETE http://127.0.0.1:3000/product-api/products/<id>

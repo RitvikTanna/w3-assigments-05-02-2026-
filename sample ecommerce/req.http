@@ -1,0 +1,46 @@
+###
+GET http://localhost:3000/products/products
+
+
+
+###
+POST  http://localhost:3000/products/products
+Content-Type: application/json
+
+{
+  "productname": "Tv",
+  "price": 30000,
+  "brand": "sony"
+}   
+
+
+###Create user req
+POST http://localhost:3000/users/users
+Content-Type: application/json
+
+{
+    "name":"Vikass",
+    "email":"123@example.com",
+    "password":"vikas",
+    "cart":[]
+}
+
+
+### req to add product to cart
+PUT http://localhost:3000/user-api/user-cart/userid/<USER_ID>/productid/<PRODUCT_ID>
+
+
+###create product req
+POST http://localhost:3000/products/products
+Content-Type: application/json
+
+{
+    "productname":"Laptop",
+    "price":50000,
+    "brand":"Dell"
+    
+}
+
+
+### req to add quantity to cart
+PUT http://localhost:3000/user-api/update-cart/userid/6981992e9a7d2e8f511fbd11/productid/6981919d4213faac679e5888/quantity/2
